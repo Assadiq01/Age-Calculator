@@ -1,0 +1,112 @@
+body {
+	background: #120078;
+}
+
+.footer_social{
+	justify-self: flex-end;
+  }
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	max-width: 320px;
+	height: 80vh;
+	background: linear-gradient(to right bottom, #ea2c62, #120078);
+	background-size: cover;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+	margin-top: 5%;
+}
+
+.enter {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	margin-top: 3px;
+}
+.input {
+	padding: 8px 25px;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 2px;
+	background-color: #f0f0f0;
+	border: none;
+}
+	input[type=text]:focus {
+	background-color: #ffffff;
+	border: 2px solid orange;
+	outline: none;
+}
+.title {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 2%;
+	color: white;
+	font-weight: bold;
+	line-height: .8;
+	letter-spacing: 0.5px;
+	word-spacing: 2.7px;
+}
+.btn {
+	background-color: #db6400;
+	color: white;
+	font-family: serif;
+	padding: 5px 8px 5px 8px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: all .3s
+}
+
+.age {
+	font-family: cursive;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+.footer_copy{
+margin-top: 4.5rem;
+color: gray;
+text-align: center;
+
+}
+@media screen and (max-width: 350px){
+.container{
+	  width: 220px;
+	height: auto;
+}
+
+.enter {
+	font-size: 20px;
+}
+.input {
+	padding: 6px 20px;
+}
+.title {
+	font-size: 10px;
+	
+}
+.btn {
+	width: 30%;
+	font-size: 12px;
+}
+.theme-btn{
+	width: 20%;
+	font-size: 9px;
+}
+.age {
+	font-size: 15px;
+}
+.footer_copy{
+margin-top: 4.5rem;
+font-size: 11px; 
+}
+}
